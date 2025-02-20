@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Cứu Trợ Động Vật</h1>
+  <p>Chung tay cứu trợ những động vật cần sự giúp đỡ để chúng sớm nhận được sự yêu thương và giúp đỡ từ cộng đồng, cũng như các nhà hảo tâm dành ra sự đóng góp để mang đến chất lượng tốt hơn nhằm duy trì các tổ chức. </p>
+</div>
+
+<div class="topnav">
+  <a href="#">Trang chủ</a>
+  <a href="#">Về chúng tôi</a>
+  <a href="#">Quyên góp</a>
+  <a href="#" style="float:right">Liên hệ</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>HOẠT ĐỘNG CỨU TRỢ</h2>
+      <h5>Tại các trạm cứu trợ, ngày 13 tháng 2, 2025</h5>
+      <div style="height:200px;"> <img src="https://file1.hutech.edu.vn/file/editor/khoathuychannuoi/SGT6.jpg" width="220px" > <img src="https://kenh14cdn.com/203336854389633024/2024/1/15/photo-12-17053399663751135955859.jpg" width="248px"> <img src="https://images2.thanhnien.vn/zoom/686_429/uploaded/congthang/2019_03_11/anh6_IEUR.jpg" width="264px"> <img src="https://cdn.sgtiepthi.vn/wp-content/uploads/2021/06/u.jpg" width="155px"> </div>
+      <p>Hoạt động cứu trợ ý nghĩa</p>
+      <p>Là tổ chức tình nguyện có trụ sở tại Việt Nam, Laws For Paws Việt Nam thành lập với sứ mệnh giải cứu, tiếp nhận những chú chó có nguy cơ bị bỏ rơi, bị ngược đãi và cần được chăm sóc y tế. Hiện nay, Laws For Paws Việt Nam hợp tác với các phòng khám thú y có uy tín để cung cấp phương pháp điều trị tốt nhất cho những chú chó, kế đến, giúp những chú chó sớm được nhận nuôi trong những ngôi nhà có tình thương và trách nhiệm với động vật.Forever Wheelchair là trung tâm làm xe lăn, chân giả, cứu chữa và tìm chủ dành cho chó mèo khuyết tật. Forever Wheelchair được vận hành bởi vợ chồng anh Oscar Fernando Ruiz Bonilla và chị Trần Anh Thư — hiện đang là “phụ huynh” của một đại gia đình gồm các bé chó, mèo, khỉ,... được cứu hộ.
+
+        Bên cạnh việc chế tạo xe lăn, tìm chủ cho chó mèo, Forever Wheelchair còn giúp đỡ nhiều trường hợp khác như các bé chim, khỉ bị khuyết tật; thậm chí còn nhận được yêu cầu lên Đà Lạt để chế tạo chân giả cho lạc đà. “Chúng mình đang trong quá trình nghiên cứu để tạo ra xe lăn và chân giả cho nhiều động vật có kích cỡ lớn hơn [...] nhưng có lẽ sẽ mất nhiều thời gian.” - anh Oscar từng chia sẻ với Saigoneer. Hiện nay, bạn đọc có thể bắt gặp áp phích khuyên dùng xe lăn Forever Wheelchair như một sản phẩm y tế tại nhiều chuỗi thú y tại Việt Nam.
+
+        Để xây dựng và vận hành một trung tâm giáo dục và “nơi trú ẩn” có thể chứa tới 80 chú chó, Laws For Paws Việt Nam đã hợp tác và nhận được sự tài trợ từ các cá nhân, doanh nghiệp.</p>
+    </div>
+    <div class="card">
+      <h2>GẦN 300 HỌC SINH VÀ GIÁO VIÊN TRIỂN KHAI CÁC HOẠT ĐỘNG TUYÊN TRUYỀN BẢO VỆ THIÊN NHIÊN VÀ ĐỘNG VẬT HOANG DÃ</h2>
+      <h5>Tại trường tiểu học Yên Khê, Ngày 20 tháng 2,2025</h5>
+      <div style="height:200px;"><img src="https://svw.vn/wp-content/uploads/2024/06/A%CC%89nh-1_-Gia%CC%81o-vie%CC%82n-pho%CC%82%CC%89-bie%CC%82%CC%81n-hoa%CC%A3t-do%CC%A3%CC%82ng-va%CC%80-the%CC%82%CC%89-le%CC%A3%CC%82-cuo%CC%A3%CC%82c-thi-cho-toa%CC%80n-tru%CC%9Bo%CC%9B%CC%80ng-1024x768.jpg" width="200"> <img src="https://svw.vn/wp-content/uploads/2024/06/A%CC%89nh-2_-Trang-phu%CC%A3c-tho%CC%9B%CC%80i-trang-ta%CC%81i-che%CC%82%CC%81-1024x767.jpg" width="200"> <img src="https://svw.vn/wp-content/uploads/2024/06/A%CC%89nh-3_-Ca%CC%81c-thi%CC%81-sinh-kho%CC%82%CC%81i-lo%CC%9B%CC%81p-2-trong-hoa%CC%A3t-do%CC%A3%CC%82ng-Ve%CC%83-tranh-chu%CC%89-de%CC%82%CC%80-em-ye%CC%82u-thie%CC%82n-nhie%CC%82n-va%CC%80-do%CC%A3%CC%82ng-va%CC%A3%CC%82t-hoang-da%CC%83-1024x768.jpg" width="200"> <img src="https://svw.vn/wp-content/uploads/2024/06/A%CC%89nh-8_-Ca%CC%81n-bo%CC%A3%CC%82-SVW-va%CC%80-ban-gia%CC%81m-hie%CC%A3%CC%82u-trao-gia%CC%89i-sao-la-cho-ho%CC%A3c-sinh-1024x768.jpg" width="200"></div>
+      <p>Hoạt động tuyên truyền</p>
+      <p>Hiện nay thiên nhiên và động vật hoang dã đang phải hứng chịu các mối đe dọa. Những mối đe dọa đó xuất phát từ nhiều nguyên nhân, trong đó có con người. Việc nâng cao nhận thức cũng như có những hành động thiết thực để bảo vệ môi trường là điều cần thiết.
+
+        Nhằm tuyên truyền sâu rộng các kiến thức và để góp phần bảo vệ thiên nhiên và động vật hoang dã, ngày 14/5/2024, lực lượng nòng cốt tại trường tiểu học Yên Khê, bao gồm 01 thành viên thuộc Nhóm nòng cốt tuyên truyền bảo vệ rừng Pù Mát và 5 học sinh thuộc Câu lạc bộ cùng em bảo vệ rừng Pù Mát điều phối triển khai cuộc thi Nét đẹp đội viên. Hoạt động bảo tồn nhằm mục đích gia tăng tình yêu thiên nhiên, nâng cao nhận thức về vai trò quan trọng của động vật hoang dã cho giáo viên, học sinh, phụ huynh và gia tăng sự tham gia của cộng đồng địa phương trong việc đề xuất, điều phối và triển khai hoạt động bảo tồn</p>
+        <p>Cuộc thi Nét đẹp đội viên với chủ đề bảo vệ thiên nhiên và động vật hoang dã với các hoạt động đặc sắc: Thời trang tái chế từ chai, túi bóng, giấy, vỏ lạc, dược liệu, lá cây thay thế mật gấu…do giáo viên và các bạn học sinh khối 3, 4, 5 chuẩn bị rất kỳ công và chu đáo, đã khuấy đảo cuộc thi với những trang phục tự chế thời thượng đến từ các sản phẩm đời sống quen thuộc gần gũi: vỏ lạc, giấy báo cũ, lá cây,…với mục đích tuyên truyền: “Hãy tái chế sản phẩm xung quanh để bảo vệ môi trường bạn nhé”.Vẽ tranh chủ đề em yêu thiên nhiên và động vật hoang dã và thuyết trình tranh đến từ các bạn học sinh khối lớp 1, 2 cũng gây ấn tượng với khán giả qua những tác phẩm sinh động. Hoạt động nhằm truyền thông điệp bảo vệ thiên nhiên, động vật hoang dã VQG Pù Mát. </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Về chúng tôi</h2>
+      <div style="height: 200px;"><img src="https://wildlifeatrisk.org/wp-content/uploads/2019/01/CC_1.jpg" width="200px"></div>
+      <p>Trạm Cứu hộ Động vật hoang dã (ĐVHD) Củ Chi là nơi chăm sóc, phục hồi sức khỏe cho những cá thể động vật hoang dã tịch thu từ các hoạt động buôn bán, nuôi nhốt bất hợp pháp. Đây là Trạm Cứu hộ đầu tiên ở Miền Nam có khả năng chăm sóc cho nhiều loài động vật hoang dã quí hiếm. Sau khi phục hồi sức khỏe, các loài động vật quí hiếm được thả về thiên nhiên.
+
+      </p>
+    </div>
+    <div class="card">
+      <h3>Hoạt động thường xuyên </h3>
+      <div style="height: 120px;"><p><img src="https://hnm.1cdn.vn/thumbs/600x315/2024/10/09/tai-tha.jpg" width="250px"></p></div>
+      <div style="height: 150px;"><p><img src="https://hnm.1cdn.vn/2023/06/27/cham-soc-g-u-t-i-trung-tam-.jpg" width="250px"></p></div>
+      <div style="height: 200px;"><p><img src="https://danviet.mediacdn.vn/zoom/480_300//upload/3-2019/images/2019-07-31/156453513513769-thumbnail.jpg" width="250px"></p></div>
+    </div>
+    <div class="card">
+      <h3>Thông tin liên hệ</h3>
+      <p>Phone:+84 8 37947045 </p>
+      <p>Địa chỉ: Số 50, Tỉnh lộ 15, Ấp chợ Củ Hai , gần Ngã Tư An Nhơn Tây, huyện Củ Chi, TP. Hồ Chí Minh</p>
+    </div>
+  </div>
+</div>
+
+<div class="Footer">
+  <h3>CẢM ƠN MỌI NGƯỜI ĐÃ QUAN TÂM ĐẾN HOẠT ĐỘNG CỨU TRỢ</h3>
+</div>
+
+</body>
+</html>
